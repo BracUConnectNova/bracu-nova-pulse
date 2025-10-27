@@ -1,0 +1,21 @@
+/* src/styles/global.css */
+:root {
+  --color-bg: #0a0a0f;
+  --color-text: #ffffff;
+  --color-accent-cyan: #00ffff;
+  --color-accent-violet: #8a2be2;
+  --color-accent-magenta: #ff2ef6;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+img { max-width: 100%; display: block; }
